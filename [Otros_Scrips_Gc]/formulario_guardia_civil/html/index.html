@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<div id="container">
+			<div id="startscreen">
+				<img class="" alt="" src="">
+				<h1 style="margin-left: 160px; margin-top: 50px; font-size: 45px; font-family: 'Secular One', sans-serif;
+			    	margin: 0;
+    				position: absolute;
+    				top: 50%;
+    				left: 50%;
+    				-ms-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);">Formulario de la Guardia Civil </h1>
+				<button class="button" id="start">Empezar</button>
+			</div>
+
+
+			<!-- Form -->
+
+
+
+			<div id="info">
+				
+				<label class="label">Nombre Ic</label>
+				<input id="firstname" type="text" placeholder="Pon lo aqui" class="input"  required="true" name="need" ><br>
+				<label class="label1">Apellidos Ic</label>
+				<input id="lastname" type="text" placeholder="Pon lo aqui" class="input"  required="true" name="need" ><br>
+				<label class="label2">Edad Ic</label>
+				<input id="age" type="number" placeholder="Pon lo aqui" class="input"  required="true" name="need" ><br>
+				<label class="label3">¿Por que quieres ser de la Guardia Civil?</label>
+				<input id="why"type="text" type="textarea" placeholder="Pon lo aqui" class="why"  required="true"  name="need"><br>
+				<label class="label4">Sexo:</label>
+
+				<select  class="gender" id="gender" required="true">
+					<option value="Male">Hombre</option>
+					<option value="Female">Mujer</option>
+				</select>
+
+
+				<strong class="warn"  id="warn">Por favor, rellene todos los valores!</strong>
+				<button class="sumbit" id="sumbit">Guardar</button>
+			</div>
+
+			<!-- Done -->
+
+			<div id="done">
+				<strong class="thanks">Gracias</strong>
+				<button class="exit" id="exit">Salir</button>
+			</div>
+
+
+		</div>
+        <script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>
